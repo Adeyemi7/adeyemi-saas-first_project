@@ -1,0 +1,26 @@
+$primary-1: blue;
+$primary-2: #878f99;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+@mixin name {
+    background-color: blue;
+    color: white;
+    width: 15rem;
+    border:  5px $primary-1;
+    cursor: pointer;
+
+}
+
+body {
+    background-color: $primary-2;
+    color: $textcolor;
+    font-size: $fontsize;
+    display: flex;
+    justify-content: center;
+    align-self: centers;
+}
+
+.submit {
+    @include name
+}

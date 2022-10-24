@@ -1,0 +1,16 @@
+body {
+  background-color: #878f99;
+  color: darkblue;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-self: centers;
+}
+
+.submit {
+  background-color: blue;
+  color: white;
+  width: 15rem;
+  border: 5px blue;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
